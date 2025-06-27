@@ -75,6 +75,7 @@ jobs:
           context: .
           #build-args: |
           #   ...
+          provenance: true
           file: ./Dockerfile
           platforms: linux/amd64
           tags: ${{ steps.meta.outputs.tags }}
