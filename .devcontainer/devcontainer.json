@@ -4,12 +4,8 @@
 // See https://aka.ms/devcontainer.json for more information.
 {
 	"name": "Gitpod",
-	// Use "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+	"image": "ghcr.io/meysholdt/multi-arch-images:main",
 	// instead of the build to use a pre-built image.
-	"build": {
-        "context": ".",
-        "dockerfile": "Dockerfile"
-    },
 	"features": {
       "ghcr.io/devcontainers/features/docker-outside-of-docker": {}
     }
